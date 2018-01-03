@@ -1,0 +1,165 @@
+.solidstyle-button, .solidstyle-profile {
+	display: block;
+	float: left;
+	cursor: pointer;
+	margin: 0 7px 9px 0 !important;
+	transition: all 0.4s ease 0s !important;
+	border: none !important;
+	color: white !important;
+}
+
+.solidstyle-button {
+	padding: 3px 4px 5px !important;
+	line-height: 18px !important;
+	text-transform: uppercase !important;
+	font-size: 12px !important;
+	font-family: sans-serif !important;
+	font-weight: bold !important;
+}
+
+a.solidstyle-button[href^="mailto:"]::before, a.solidstyle-profile[href^="mailto:"]::before {
+    display: none !important;
+}
+
+.solidstyle-button > .solidstyle-title {
+	display: inline-block;
+	margin: 1px 4px !important;
+	letter-spacing: 0.5px !important;
+	color: white !important;
+}
+
+.solidstyle-button > .solidstyle-title:hover, .solidstyle-button > .solidstyle-title:visited, .solidstyle-button > .solidstyle-title:active {
+	color: white !important;
+}
+
+a.solidstyle-button:hover, a.solidstyle-button:visited, a.solidstyle-button:active {
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	color: white !important;
+}
+
+.solidstyle-button svg, .solidstyle-profile svg {
+    fill: white;
+    float: left;
+}
+
+.solidstyle-button svg {
+    height: 16px;
+    width: 16px;
+	margin: 2px;
+}
+
+.solidstyle-profile {
+	padding: 7px;
+    padding-bottom: 9px;
+}
+
+.solidstyle-profile svg {
+	height: 27px;
+	width: 27px;
+}
+
+.solidstyle-button.facebook, .solidstyle-profile.facebook {
+	background: #3a589e;
+	box-shadow: inset 0px -4px 0px #2c4379;
+}
+
+.solidstyle-button.facebook:hover, .solidstyle-profile.facebook:hover {
+	background: #2c4379;
+}
+
+.solidstyle-button.twitter, .solidstyle-profile.twitter {
+	background: #00aced;
+	box-shadow: inset 0px -4px 0px #0087ba;
+}
+
+.solidstyle-button.twitter:hover, .solidstyle-profile.twitter:hover {
+	background: #0087ba;
+}
+
+.solidstyle-button.googleplus, .solidstyle-profile.googleplus {
+	background: #d34836;
+	box-shadow: inset 0px -4px 0px #b03626;
+}
+
+.solidstyle-button.googleplus:hover, .solidstyle-profile.googleplus:hover {
+	background: #b03626;
+}
+
+.solidstyle-button.pinterest, .solidstyle-profile.pinterest {
+	background: #cd2029;
+	box-shadow: inset 0px -4px 0px #a11920;
+}
+
+.solidstyle-button.pinterest:hover, .solidstyle-profile.pinterest:hover {
+	background: #a11920;
+}
+
+.solidstyle-button.linkedin, .solidstyle-profile.linkedin {
+	background: #0077b5;
+	box-shadow: inset 0px -4px 0px #005582;
+}
+
+.solidstyle-button.linkedin:hover, .solidstyle-profile.linkedin:hover {
+	background: #005582;
+}
+
+.solidstyle-button.instagram, .solidstyle-profile.instagram {
+    background: linear-gradient(45deg, #fccc63 10%,#fbad50 27%,#e95950 45%,#cd486b 56%,#bc2a8d 66%,#8a3ab9 78%,#4c68d7 97%);
+	box-shadow: inset 0px -4px 0px #b23052;
+	
+}
+
+.solidstyle-button.instagram:hover, .solidstyle-profile.instagram:hover {
+	background: linear-gradient(45deg, #fbbc31 10%,#fa961e 27%,#e32e23 45%,#b23052 56%,#92216e 66%,#6d2e92 78%,#2c4bc4 97%);
+}
+
+.solidstyle-button.github, .solidstyle-profile.github {
+	background: #fff;
+	box-shadow: inset 0px -4px 0px #e6e6e6;
+}
+
+.solidstyle-button.github > svg, .solidstyle-profile.github > svg {
+	fill: #000;
+}
+
+
+.solidstyle-button.github:hover, .solidstyle-profile.github:hover {
+	background: #e6e6e6;
+}
+
+.solidstyle-button.soundcloud, .solidstyle-profile.soundcloud {
+	background: #ff3300;
+	box-shadow: inset 0px -4px 0px #cc2900;
+}
+
+.solidstyle-button.soundcloud:hover, .solidstyle-profile.soundcloud:hover {
+	background: #cc2900;
+}
+
+.solidstyle-button.youtube, .solidstyle-profile.youtube {
+	background: #cc181e;
+	box-shadow: inset 0px -4px 0px #9e1317;
+}
+
+.solidstyle-button.youtube:hover, .solidstyle-profile.youtube:hover {
+	background: #9e1317;
+}
+
+.solidstyle-button.rss, .solidstyle-profile.rss {
+	background: #f26522;
+	box-shadow: inset 0px -4px 0px #d44d0d;
+}
+
+.solidstyle-button.rss:hover, .solidstyle-profile.rss:hover {
+	background: #d44d0d;
+}
+
+.solidstyle-button.print, .solidstyle-button.mail, .solidstyle-profile.mail {
+	background: #777;
+	box-shadow: inset 0px -4px 0px #5e5e5e;
+}
+
+.solidstyle-button.print:hover, .solidstyle-button.mail:hover, .solidstyle-profile.mail:hover {
+	background: #5e5e5e;
+}

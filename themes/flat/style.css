@@ -1,0 +1,150 @@
+.flatstyle-button, .flatstyle-profile {
+	display: block;
+	float: left;
+	cursor: pointer;
+	margin: 0 7px 7px 0 !important;
+	transition: all 0.4s ease 0s !important;
+	border: none !important;
+	color: white !important;
+}
+
+.flatstyle-button {
+	padding: 3px 4px !important;
+	line-height: 20px !important;
+	text-transform: uppercase !important;
+	font-size: 12px !important;
+	font-family: sans-serif !important;
+	font-weight: bold !important;
+}
+
+.flatstyle-button > .flatstyle-title {
+	display: inline-block;
+	margin: 0 4px !important;
+	letter-spacing: 0.5px !important;
+	color: white !important;
+}
+
+a.flatstyle-button[href^="mailto:"]::before, a.flatstyle-profile[href^="mailto:"]::before {
+    display: none;
+}
+
+.flatstyle-button > .flatstyle-title:hover, .flatstyle-button > .flatstyle-title:visited, .flatstyle-button > .flatstyle-title:active {
+	color: white !important;
+}
+
+a.flatstyle-button:hover, a.flatstyle-button:visited, a.flatstyle-button:active {
+	color: white !important;
+}
+
+.flatstyle-button svg, .flatstyle-profile svg {
+    fill: white;
+    float: left;
+}
+
+.flatstyle-button svg {
+    height: 16px;
+    width: 16px;
+	margin: 2px;
+}
+
+.flatstyle-profile {
+	padding: 7px;
+}
+
+.flatstyle-profile svg {
+	height: 27px;
+	width: 27px;
+}
+
+.flatstyle-button.facebook, .flatstyle-profile.facebook {
+	background: #3a589e;
+}
+
+.flatstyle-button.facebook:hover, .flatstyle-profile.facebook:hover {
+	background: #2c4379;
+}
+
+.flatstyle-button.twitter, .flatstyle-profile.twitter {
+	background: #00aced;
+}
+
+.flatstyle-button.twitter:hover, .flatstyle-profile.twitter:hover {
+	background: #0087ba;
+}
+
+.flatstyle-button.googleplus, .flatstyle-profile.googleplus {
+	background: #d34836;
+}
+
+.flatstyle-button.googleplus:hover, .flatstyle-profile.googleplus:hover {
+	background: #b03626;
+}
+
+.flatstyle-button.pinterest, .flatstyle-profile.pinterest {
+	background: #cd2029;
+}
+
+.flatstyle-button.pinterest:hover, .flatstyle-profile.pinterest:hover {
+	background: #a11920;
+}
+
+.flatstyle-button.linkedin, .flatstyle-profile.linkedin {
+	background: #0077b5;
+}
+
+.flatstyle-button.linkedin:hover, .flatstyle-profile.linkedin:hover {
+	background: #005582;
+}
+
+.flatstyle-button.instagram, .flatstyle-profile.instagram {
+    background: linear-gradient(45deg, #fccc63 10%,#fbad50 27%,#e95950 45%,#cd486b 56%,#bc2a8d 66%,#8a3ab9 78%,#4c68d7 97%);
+}
+
+.flatstyle-button.instagram:hover, .flatstyle-profile.instagram:hover {
+	background: linear-gradient(45deg, #fbbc31 10%,#fa961e 27%,#e32e23 45%,#b23052 56%,#92216e 66%,#6d2e92 78%,#2c4bc4 97%);
+}
+
+.flatstyle-button.github, .flatstyle-profile.github {
+	background: #fff;
+}
+
+.flatstyle-button.github > svg, .flatstyle-profile.github > svg {
+	fill: #000;
+}
+
+
+.flatstyle-button.github:hover, .flatstyle-profile.github:hover {
+	background: #e6e6e6;
+}
+
+.flatstyle-button.soundcloud, .flatstyle-profile.soundcloud {
+	background: #ff3300;
+}
+
+.flatstyle-button.soundcloud:hover, .flatstyle-profile.soundcloud:hover {
+	background: #cc2900;
+}
+
+.flatstyle-button.youtube, .flatstyle-profile.youtube {
+	background: #cc181e;
+}
+
+.flatstyle-button.youtube:hover, .flatstyle-profile.youtube:hover {
+	background: #9e1317;
+}
+
+.flatstyle-button.rss, .flatstyle-profile.rss {
+	background: #f26522;
+}
+
+.flatstyle-button.rss:hover, .flatstyle-profile.rss:hover {
+	background: #d44d0d;
+}
+
+.flatstyle-button.print, .flatstyle-button.mail, .flatstyle-profile.mail {
+	background: #777;
+}
+
+.flatstyle-button.print:hover, .flatstyle-button.mail:hover, .flatstyle-profile.mail:hover {
+	background: #5e5e5e;
+}

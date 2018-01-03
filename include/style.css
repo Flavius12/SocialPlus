@@ -1,0 +1,114 @@
+@media (min-width: 1024px){
+	div.settings_left {
+		margin: 0;
+		width: 61%;
+		float: left;
+		padding: 0 32px 0 0;
+	}
+	div.settings_right {
+		margin: 0;
+		width: 34%;
+		float: left;
+	}
+}
+
+.ui-sortable-helper {
+    opacity: 0.8;
+}
+
+
+.box {
+	position: relative;
+	overflow: auto;
+	margin: 16px 0;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+	background: #fff;
+}
+
+.box-content {
+	padding: 20px;
+}
+
+.box-content h2 {
+	margin: 0;
+}
+
+.box-content p {
+	font-size: 14px;
+	margin: 0;
+}
+
+.listbox {
+	list-style-type: none;
+    margin: 1px;
+    padding: 0;
+    height: 312px;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.listbox > li {
+    padding: 8px;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 0;
+	display: block;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.listbox > li:hover {
+	border: 1px solid #999;
+	box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}
+
+.listbox > li > img {
+    vertical-align: middle;
+    display: inline-block;
+	height: 32px;
+	width: 32px;
+}
+
+.listbox > li > span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.listbox > li:hover {
+	background: #fcfcfc;
+}
+
+.listicon {
+	padding: 5px;
+	margin-right: 5px;
+}
+
+.listicon svg {
+	fill: white;
+    float: left;
+	height: 24px;
+	width: 24px;
+}
+
+.listicon.instagram {
+	background: linear-gradient(45deg, #fccc63 10%,#fbad50 27%,#e95950 45%,#cd486b 56%,#bc2a8d 66%,#8a3ab9 78%,#4c68d7 97%);
+}
+
+.listicon.github svg {
+	fill: black;
+}
+
+.tabcell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.tabcell.middle {
+	width: 100%;
+	padding-left: 5px;
+}

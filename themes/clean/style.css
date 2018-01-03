@@ -1,0 +1,151 @@
+.cleanstyle-button, .cleanstyle-profile {
+	display: block;
+	float: left;
+	cursor: pointer;
+	border-radius: 3px !important;
+	margin: 0 7px 7px 0 !important;
+	transition: all 0.4s ease 0s !important;
+	border: none !important;
+	color: white !important;
+}
+
+.cleanstyle-button {
+	padding: 3px 4px !important;
+	line-height: 20px !important;
+	text-transform: uppercase !important;
+	font-size: 12px !important;
+	font-family: sans-serif !important;
+	font-weight: bold !important;
+}
+
+a.cleanstyle-button[href^="mailto:"]::before, a.cleanstyle-profile[href^="mailto:"]::before {
+    display: none !important;
+}
+
+.cleanstyle-button > .cleanstyle-title {
+	display: inline-block;
+	margin: 0 4px !important;
+	letter-spacing: 0.5px !important;
+	color: white !important;
+}
+
+.cleanstyle-button > .cleanstyle-title:hover, .cleanstyle-button > .cleanstyle-title:visited, .cleanstyle-button > .cleanstyle-title:active {
+	color: white !important;
+}
+
+a.cleanstyle-button:hover, a.cleanstyle-button:visited, a.cleanstyle-button:active {
+	color: white !important;
+}
+
+.cleanstyle-button svg, .cleanstyle-profile svg {
+    fill: white;
+    float: left;
+}
+
+.cleanstyle-button svg {
+    height: 16px;
+    width: 16px;
+	margin: 2px;
+}
+
+.cleanstyle-profile {
+	padding: 7px;
+}
+
+.cleanstyle-profile svg {
+	height: 27px;
+	width: 27px;
+}
+
+.cleanstyle-button.facebook, .cleanstyle-profile.facebook {
+	background: #3a589e;
+}
+
+.cleanstyle-button.facebook:hover, .cleanstyle-profile.facebook:hover {
+	background: #2c4379;
+}
+
+.cleanstyle-button.twitter, .cleanstyle-profile.twitter {
+	background: #00aced;
+}
+
+.cleanstyle-button.twitter:hover, .cleanstyle-profile.twitter:hover {
+	background: #0087ba;
+}
+
+.cleanstyle-button.googleplus, .cleanstyle-profile.googleplus {
+	background: #d34836;
+}
+
+.cleanstyle-button.googleplus:hover, .cleanstyle-profile.googleplus:hover {
+	background: #b03626;
+}
+
+.cleanstyle-button.pinterest, .cleanstyle-profile.pinterest {
+	background: #cd2029;
+}
+
+.cleanstyle-button.pinterest:hover, .cleanstyle-profile.pinterest:hover {
+	background: #a11920;
+}
+
+.cleanstyle-button.linkedin, .cleanstyle-profile.linkedin {
+	background: #0077b5;
+}
+
+.cleanstyle-button.linkedin:hover, .cleanstyle-profile.linkedin:hover {
+	background: #005582;
+}
+
+.cleanstyle-button.instagram, .cleanstyle-profile.instagram {
+    background: linear-gradient(45deg, #fccc63 10%,#fbad50 27%,#e95950 45%,#cd486b 56%,#bc2a8d 66%,#8a3ab9 78%,#4c68d7 97%);
+}
+
+.cleanstyle-button.instagram:hover, .cleanstyle-profile.instagram:hover {
+	background: linear-gradient(45deg, #fbbc31 10%,#fa961e 27%,#e32e23 45%,#b23052 56%,#92216e 66%,#6d2e92 78%,#2c4bc4 97%);
+}
+
+.cleanstyle-button.github, .cleanstyle-profile.github {
+	background: #fff;
+}
+
+.cleanstyle-button.github > svg, .cleanstyle-profile.github > svg {
+	fill: #000;
+}
+
+
+.cleanstyle-button.github:hover, .cleanstyle-profile.github:hover {
+	background: #e6e6e6;
+}
+
+.cleanstyle-button.soundcloud, .cleanstyle-profile.soundcloud {
+	background: #ff3300;
+}
+
+.cleanstyle-button.soundcloud:hover, .cleanstyle-profile.soundcloud:hover {
+	background: #cc2900;
+}
+
+.cleanstyle-button.youtube, .cleanstyle-profile.youtube {
+	background: #cc181e;
+}
+
+.cleanstyle-button.youtube:hover, .cleanstyle-profile.youtube:hover {
+	background: #9e1317;
+}
+
+.cleanstyle-button.rss, .cleanstyle-profile.rss {
+	background: #f26522;
+}
+
+.cleanstyle-button.rss:hover, .cleanstyle-profile.rss:hover {
+	background: #d44d0d;
+}
+
+.cleanstyle-button.print, .cleanstyle-button.mail, .cleanstyle-profile.mail {
+	background: #777;
+}
+
+.cleanstyle-button.print:hover, .cleanstyle-button.mail:hover, .cleanstyle-profile.mail:hover {
+	background: #5e5e5e;
+}

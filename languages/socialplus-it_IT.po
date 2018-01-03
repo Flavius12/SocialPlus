@@ -1,0 +1,176 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SocialPlus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-03 11:11+0000\n"
+"PO-Revision-Date: 2018-01-03 11:11+0000\n"
+"Last-Translator: Flavius12 <mail@flavius12.net>\n"
+"Language-Team: Italian\n"
+"Language: it-IT\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: socialplus-admin.php:61
+msgid "Show on home (some themes may not show them)"
+msgstr "Mostra nella home (alcuni temi potrebbero non mostrarli)"
+
+#: socialplus-admin.php:33
+msgid "Share buttons settings"
+msgstr "Impostazioni pulsanti condividi"
+
+#: socialplus-admin.php:34
+msgid "Visibility"
+msgstr "Visibilità"
+
+#: socialplus-admin.php:35
+msgid "Position"
+msgstr "Posizione"
+
+#: socialplus-admin.php:36 socialplus-admin.php:44
+msgid "Buttons"
+msgstr "Pulsanti"
+
+#: socialplus-admin.php:37 socialplus-admin.php:46
+msgid "Theme"
+msgstr "Tema"
+
+#: socialplus-admin.php:39
+msgid "Profile buttons settings"
+msgstr "Impostazioni pulsanti profilo"
+
+#: socialplus-admin.php:45
+msgid "Open in new tab"
+msgstr "Apri in una nuova scheda"
+
+#: socialplus-admin.php:56
+msgid ""
+"Configure share buttons that will be shown on homepage, blog pages or posts."
+msgstr ""
+"Configura i pulsanti condividi che verranno mostrati nella homepage, nelle "
+"pagine del blog o nei post."
+
+#: socialplus-admin.php:62
+msgid "Show on pages"
+msgstr "Mostra nelle pagine"
+
+#: socialplus-admin.php:63
+msgid "Show on posts"
+msgstr "Mostra nei post"
+
+#: socialplus-admin.php:68
+msgid "Above"
+msgstr "Sopra"
+
+#: socialplus-admin.php:69
+msgid "Below"
+msgstr "Sotto"
+
+#: socialplus-admin.php:70
+msgid "Both"
+msgstr "Entrambi"
+
+#: socialplus-admin.php:83
+msgid "Drag the elements in the list to order your share buttons."
+msgstr "Trascina gli elementi nella lista per ordinare i pulsanti condividi."
+
+#: socialplus-admin.php:106
+msgid "Configure profile buttons available on the widget."
+msgstr "Configura i pulsanti profilo disponibili nel widget."
+
+#: socialplus-admin.php:119
+msgid "your_profile"
+msgstr "tuo_profilo"
+
+#: socialplus-admin.php:121
+#, php-format
+msgid "Your %s profile link will be: %s"
+msgstr "Il link del tuo profilo %s sarà: %s"
+
+#: socialplus-admin.php:134
+msgid "Drag the elements in the list to order your profile buttons."
+msgstr "Trascina gli elementi nella lista per ordinare i pulsanti profilo."
+
+#: socialplus-admin.php:172
+msgid "SocialPlus Settings"
+msgstr "Impostazioni SocialPlus"
+
+#: socialplus-admin.php:173
+msgid "Share buttons"
+msgstr "Pulsanti condividi"
+
+#: socialplus-admin.php:174
+msgid "Profile buttons"
+msgstr "Pulsanti profilo"
+
+#: socialplus-admin.php:206
+msgid "Rate the plugin"
+msgstr "Vota il plugin"
+
+#: socialplus-admin.php:206
+#, php-format
+msgid "Let me know what do you think about this plugin. Please rate it on %s."
+msgstr "Fammi sapere cosa ne pensi di questo plugin. Votalo su %s."
+
+#: socialplus-admin.php:207
+msgid "Donate"
+msgstr "Donazione"
+
+#: socialplus-admin.php:208
+msgid ""
+"If you want you can support the development of this plugin by making a small "
+"donation."
+msgstr ""
+"Se desideri puoi supportare lo sviluppo di questo plugin facendo una piccola "
+"donazione."
+
+#: socialplus-admin.php:208
+msgid "Thank you for your generosity"
+msgstr "Grazie per la tua generosità"
+
+#: socialplus-admin.php:214
+#, php-format
+msgid "You can also donate %s to: %s"
+msgstr "Puoi anche donare %s a: %s"
+
+#: socialplus-widget.php:7
+msgid "Displays your favourite social network profile buttons."
+msgstr "Mostra i tuoi pulsanti social preferiti."
+
+#: socialplus-widget.php:8
+msgid "SocialPlus Profile Buttons"
+msgstr "SocialPlus pulsanti profilo"
+
+#: socialplus-widget.php:27
+msgid "Social Buttons"
+msgstr "Pulsanti Social"
+
+#. Name of the plugin
+msgid "SocialPlus"
+msgstr "SocialPlus"
+
+#. Description of the plugin
+msgid ""
+"Add custom share buttons to your blog. With SocialPlus you can add "
+"customizable share buttons on your blog pages, posts and homepage. You can "
+"also add the SocialPlus widget with your favourite social network buttons on "
+"your blog."
+msgstr ""
+"Aggiungi pulsanti condividi personalizzati nel tuo blog. Con SocialPlus puoi "
+"aggiungere pulsanti condividi personalizzati nelle pagine del tuo blog, nei "
+"post e nella homepage. Inoltre puoi anche aggiungere il widget di SocialPlus "
+"con i pulsanti dei tuoi social network preferiti."
+
+#. URI of the plugin
+msgid "http://wordpress.org/plugins/socialplus/"
+msgstr "http://it.wordpress.org/plugins/socialplus/"
+
+#. Author of the plugin
+msgid "Flavius12"
+msgstr "Flavius12"
+
+#. Author URI of the plugin
+msgid "https://www.flavius12.net"
+msgstr "https://www.flavius12.net"
